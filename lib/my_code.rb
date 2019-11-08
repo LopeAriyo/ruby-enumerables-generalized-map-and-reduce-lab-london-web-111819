@@ -23,12 +23,11 @@ def reduce(array, starting_point = nil)
 
   if starting_point
     i = 0
-   total = starting_point
- else
-  i = 1
-  total = array[0]
- end
-
+    total = starting_point
+  else
+    i = 1
+    total = array[0]
+  end
 
    until  i == array.length do
 
