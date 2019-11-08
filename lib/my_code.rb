@@ -10,6 +10,7 @@ end
 
 
 #using yield to pass an argument
+
 def reduce(array, starting_point)
 
 
