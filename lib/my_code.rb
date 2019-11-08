@@ -19,8 +19,23 @@ end
 
 #using yield to pass an argument
 
-def reduce(array, starting_point)
+def reduce(array, starting_point = 0)
 
+  i = 0
+  total = starting_point
+   
 
+   until  i == array.length do
+
+     total += yield(array[i])
+
+     
+     i += 1
+
+   end
+
+   p total
 
 end
+
+
