@@ -2,12 +2,14 @@
 # My Code here....
 
 def map(array)
-  array.map{|n| n*-1}
-  array.map{|n| n}
-  array.map{|n| n*2}
-  array.map{|n| n**2 }
+  array.map{|num| num *-1}
+  array.map{|num| num}
+  array.map{|num| num*2}
+  array.map{|num| num**2 }
 end
 
+
+#using yield to pass an argument
 def reduce(array, starting_point)
 
 
