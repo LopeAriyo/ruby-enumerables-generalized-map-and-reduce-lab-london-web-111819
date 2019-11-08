@@ -19,7 +19,7 @@ end
 
 #using yield to pass an argument
 
-def reduce(array, starting_point = 0)
+def reduce(array, starting_point = nil)
 
   i = 0
   total = starting_point
@@ -29,7 +29,6 @@ def reduce(array, starting_point = 0)
 
      total += yield(array[i])
 
-     
      i += 1
 
    end
