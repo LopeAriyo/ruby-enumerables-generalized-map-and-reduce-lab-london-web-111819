@@ -8,6 +8,13 @@ def map(array)
   array.map{|num| num**2 }
 end
 
+def negativize (num)
+
+  num = - num 
+
+end
+
+negativize(array) {|num| puts num}
 
 #using yield to pass an argument
 
