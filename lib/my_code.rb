@@ -19,7 +19,7 @@ end
 
 #using yield to pass an argument
 
-def reduce(array, starting_point = nil)
+def reduce(array, starting_point = 0)
 
   i = 0
   total = starting_point
@@ -27,7 +27,7 @@ def reduce(array, starting_point = nil)
 
    until  i == array.length do
 
-     total += yield(array[i])
+     total = yield(total, array[i])
 
      i += 1
 
