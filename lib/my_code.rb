@@ -23,7 +23,7 @@ def reduce(array, starting_point = 0)
 
   i = 0
   total = starting_point
-   
+
 
    until  i == array.length do
 
@@ -37,5 +37,3 @@ def reduce(array, starting_point = 0)
    p total
 
 end
-
-
