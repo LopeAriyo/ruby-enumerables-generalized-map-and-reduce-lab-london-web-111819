@@ -3,18 +3,13 @@
 
 def map(array)
   array.map{|num| num *-1}
-  array.map{|num| num}
-  array.map{|num| num*2}
-  array.map{|num| num**2 }
-end
-
-def negativize (num)
-
-  num = - num
 
 end
 
-negativize(array) {|num| puts num}
+#array.map{|num| num}
+#array.map{|num| num*2}
+#array.map{|num| num**2 }
+
 
 #using yield to pass an argument
 
