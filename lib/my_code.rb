@@ -10,7 +10,7 @@ end
 
 def negativize (num)
 
-  num = - num 
+  num = - num
 
 end
 
